@@ -12,6 +12,7 @@ const useAddArticleForm = () => {
       window.alert("No title provided");
       return;
     }
+
     await addArticle({ variables: inputs });
     // Clear input form when done
     setInputs({ title: "" });

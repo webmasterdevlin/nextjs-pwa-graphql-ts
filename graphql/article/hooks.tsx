@@ -1,5 +1,7 @@
 // Client-side
 import { useQuery, useMutation } from "@apollo/react-hooks";
+import { ArticleModel } from "../../models/article-model";
+import { ArticlesResponseType } from "./article-response-type";
 
 import {
   GET_ARTICLES,
@@ -10,7 +12,7 @@ import {
 } from "./queries";
 
 // { data, loading, error } = useGetArticles()
-export const useGetArticles = () => useQuery(GET_ARTICLES);
+export const useGetArticles = () => useQuery<ArticlesResponseType>(GET_ARTICLES);
 
 // const { data, loading, error } = useGetArticle('slug-1')
 export const useGetArticle = (slugAndId) =>
@@ -18,6 +20,7 @@ export const useGetArticle = (slugAndId) =>
 
 // addArticle({ variables })
 export const useAddArticle = () => {
+
   const [addArticleMutation] = useMutation(ADD_ARTICLE, {
     update: (cache: any, { data: { addArticle } }) => {
       const { variables } = cache.watches.values().next().value;
