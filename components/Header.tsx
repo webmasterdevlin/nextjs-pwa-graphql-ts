@@ -1,13 +1,16 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-import { config } from '../config/config'
+import { config } from "../config/config";
 
 const AppIcon = () => (
-  <Link href='/'>
-    <a className='app-icon' title={config.appName}>
-      <img src='/icon.png' alt={config.appName} />
-      <style jsx>{`
+  <Link href="/">
+    <a className="app-icon" title={config.appName}>
+      <img src="/icon.png" alt={config.appName} />
+      <style
+        //@ts-ignore
+        jsx
+      >{`
         a:hover {
           filter: none;
         }
@@ -23,16 +26,22 @@ const AppIcon = () => (
       `}</style>
     </a>
   </Link>
-)
+);
 
-export default ({ title = config.appName, children }) => (
-  <header
-    className='color-header-bg color-background-fg'
-  >
+type Props = {
+  title: string;
+  children?: any;
+};
+
+export default ({ title = config.appName, children }: Props) => (
+  <header className="color-header-bg color-background-fg">
     <AppIcon />
     {title}
     {children}
-    <style jsx>{`
+    <style
+      //@ts-ignore
+      jsx
+    >{`
       header {
         position: fixed;
         z-index: 1000;
@@ -50,4 +59,4 @@ export default ({ title = config.appName, children }) => (
       }
     `}</style>
   </header>
-)
+);

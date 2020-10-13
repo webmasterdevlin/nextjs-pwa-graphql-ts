@@ -130,18 +130,18 @@ The database item is called “Article”, but you probably want something else 
 Rename the files:
 
     mkdir graphql/{newName}
-    mv graphql/article/hooks.js graphql/{newName}/hooks.js
+    mv graphql/article/hooks.tsx graphql/{newName}/hooks.tsx
     mv graphql/article/queries.js graphql/{newName}/queries.js
     mv graphql/article/resolvers.js graphql/{newName}/resolvers.js
     mv graphql/article/schema.js graphql/{newName}/schema.js
     rm -r graphql/article
     mkdir -p components/{newName}s
-    mv components/articles/ArticleList.js components/{newName}s/{NewName}List.js
-    mv components/articles/ArticleListItem.js components/{newName}s/{NewName}ListItem.js
-    mv components/articles/ArticleDetails.js components/{newName}s/{NewName}Details.js
+    mv components/articles/ArticleList.tsx components/{newName}s/{NewName}List.js
+    mv components/articles/ArticleListItem.tsx components/{newName}s/{NewName}ListItem.js
+    mv components/articles/ArticleDetails.tsx components/{newName}s/{NewName}Details.js
     rm -r components/articles
     mkdir pages/{newName}s
-    mv "pages/articles/[article].js" "pages/{newName}s/[{newName}].js"
+    mv "pages/articles/[article].tsx" "pages/{newName}s/[{newName}].js"
     rm -r pages/articles
 
 Then, do search/replace inside the files for different casing: article, Article, ARTICLE
@@ -163,4 +163,4 @@ Do search/replace for "3003" to something else.
 
 1. Change colors in `public/manifest.json`
 2. Change CSS in `public/app.css`
-3. Change font in `PageHead.js`
+3. Change font in `PageHead.tsx`

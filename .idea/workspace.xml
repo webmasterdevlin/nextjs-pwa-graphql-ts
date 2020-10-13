@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a1e8457-b049-4c16-8bda-8fd2ed5c3165" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/articles/ArticleList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/article-model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GoogleAnalytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoogleAnalytics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PageHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PageHead.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/articles/ArticleDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/articles/ArticleDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/articles/ArticleList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/articles/ArticleListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/articles/ArticleListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/apollo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/article/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/article/hooks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/article/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/article/resolvers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_error.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles/[article].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles/[article].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/robots.txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/robots.txt.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sitemap.xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sitemap.xml.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iopvY7WgqMUV5eansIuePjfiu4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/v12.14.0/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a1e8457-b049-4c16-8bda-8fd2ed5c3165" name="Default Changelist" comment="" />
+      <created>1602584030536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602584030536</updated>
+      <workItem from="1602584032821" duration="2756000" />
+      <workItem from="1602617059809" duration="4621000" />
+      <workItem from="1602621873511" duration="1388000" />
+      <workItem from="1602623280371" duration="710000" />
+      <workItem from="1602624009777" duration="841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602616698295">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="588" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616698295" />
+    <state x="385" y="23" width="930" height="981" key="CommitChangelistDialog2" timestamp="1602616717596">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="385" y="23" width="930" height="981" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616717596" />
+    <state width="1639" height="227" key="GridCell.Tab.0.bottom" timestamp="1602616721782">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1639" height="227" key="GridCell.Tab.0.bottom/1680.23.1920.1057/-1920.23.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1602597755834" />
+    <state width="1639" height="227" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616721782" />
+    <state width="1639" height="227" key="GridCell.Tab.0.center" timestamp="1602616721781">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1639" height="227" key="GridCell.Tab.0.center/1680.23.1920.1057/-1920.23.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1602597755833" />
+    <state width="1639" height="227" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616721781" />
+    <state width="1639" height="227" key="GridCell.Tab.0.left" timestamp="1602616721780">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1639" height="227" key="GridCell.Tab.0.left/1680.23.1920.1057/-1920.23.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1602597755832" />
+    <state width="1639" height="227" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616721780" />
+    <state width="1639" height="227" key="GridCell.Tab.0.right" timestamp="1602616721781">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1639" height="227" key="GridCell.Tab.0.right/1680.23.1920.1057/-1920.23.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1602597755834" />
+    <state width="1639" height="227" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616721781" />
+    <state x="306" y="51" key="RollbackChangesDialog" timestamp="1602616715213">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="306" y="51" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616715213" />
+    <state x="350" y="153" key="SettingsEditor" timestamp="1602619155318">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="350" y="153" key="SettingsEditor/1680.23.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1602619155318" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1602624153925">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/1680.23.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1602624153925" />
+    <state x="514" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1602619659896">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="514" y="241" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1602619659896" />
+    <state x="579" y="427" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602622594609">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="579" y="427" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1680.23.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1602622594609" />
+  </component>
+</project>
