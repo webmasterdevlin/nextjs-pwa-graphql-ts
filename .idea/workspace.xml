@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1e8457-b049-4c16-8bda-8fd2ed5c3165" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.staging" beforeDir="false" afterPath="$PROJECT_DIR$/.env.staging" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/GoogleAnalytics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoogleAnalytics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PageHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PageHead.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/articles/ArticleDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/articles/ArticleDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/articles/ArticleList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/articles/ArticleList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/articles/ArticleListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/articles/ArticleListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/article/hooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/article/hooks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/article/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/article/queries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -77,8 +65,17 @@
       <workItem from="1602621873511" duration="1388000" />
       <workItem from="1602623280371" duration="710000" />
       <workItem from="1602624009777" duration="841000" />
-      <workItem from="1602647874484" duration="2413000" />
+      <workItem from="1602647874484" duration="2572000" />
+      <workItem from="1602663887136" duration="630000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1602650442944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602650442944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,16 +97,23 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602616698295">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="588" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616698295" />
-    <state x="385" y="23" width="930" height="981" key="CommitChangelistDialog2" timestamp="1602616717596">
-      <screen x="0" y="23" width="1680" height="981" />
+    <state x="4427" y="0" width="930" height="981" key="CommitChangelistDialog2" timestamp="1602650442260">
+      <screen x="3840" y="0" width="2560" height="1400" />
     </state>
     <state x="385" y="23" width="930" height="981" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1602616717596" />
+    <state x="4427" y="0" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@3840.0.2560.1400" timestamp="1602650442260" />
+    <state x="4848" y="397" key="FileChooserDialogImpl" timestamp="1602663922015">
+      <screen x="3840" y="0" width="2560" height="1400" />
+    </state>
+    <state x="4848" y="397" key="FileChooserDialogImpl/3840.0.2560.1400/0.0.2560.1400@3840.0.2560.1400" timestamp="1602663922015" />
     <state width="1639" height="227" key="GridCell.Tab.0.bottom" timestamp="1602616721782">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
