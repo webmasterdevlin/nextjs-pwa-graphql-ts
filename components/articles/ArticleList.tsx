@@ -33,6 +33,7 @@ const ArticleList = () => {
   const { inputs, handleInputChange, handleSubmit } = useAddArticleForm();
 
   const { data, loading, error } = useGetArticles();
+
   if (loading) return <>Loading...</>;
   if (error) return <>{`Error! ${error.message}`}</>;
 

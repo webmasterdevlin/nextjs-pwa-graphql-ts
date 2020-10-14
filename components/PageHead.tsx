@@ -24,7 +24,7 @@ const PageHead = (props: Props) => {
 
     return (
       <Head>
-        <title> {pageTitle} </title>
+        <title>{pageTitle}</title>
         <meta name="description" content={description} />
 
         <meta charSet="utf-8" />

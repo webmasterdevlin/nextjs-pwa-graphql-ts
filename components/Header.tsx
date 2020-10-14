@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { config } from "../config/config";
 
-const AppIcon = () => (
+const AppIcon: React.FC = () => (
   <Link href="/">
     <a className="app-icon" title={config.appName}>
       <img src="/icon.png" alt={config.appName} />

@@ -6,7 +6,7 @@ import {
 } from "../../graphql/article/hooks";
 import { ArticleModel } from "../../models/article-model";
 
-const usePromptAndUpdateArticle = (article, fieldName) => {
+const usePromptAndUpdateArticle = (article: ArticleModel, fieldName: string) => {
   const updateArticle = useUpdateArticle();
 
   const handleUpdate = async () => {
@@ -26,7 +26,7 @@ const usePromptAndUpdateArticle = (article, fieldName) => {
   return handleUpdate;
 };
 
-const usePromptAndDeleteArticle = (article) => {
+const usePromptAndDeleteArticle = (article: ArticleModel) => {
   const deleteArticle = useDeleteArticle();
 
   const handleDelete = async () => {

@@ -131,7 +131,7 @@ Rename the files:
 
     mkdir graphql/{newName}
     mv graphql/article/hooks.tsx graphql/{newName}/hooks.tsx
-    mv graphql/article/queries.js graphql/{newName}/queries.js
+    mv graphql/article/queries.ts graphql/{newName}/queries.ts
     mv graphql/article/resolvers.js graphql/{newName}/resolvers.js
     mv graphql/article/schema.js graphql/{newName}/schema.js
     rm -r graphql/article

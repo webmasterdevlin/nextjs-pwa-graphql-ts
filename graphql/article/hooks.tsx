@@ -1,6 +1,6 @@
 // Client-side
 import { useQuery, useMutation } from "@apollo/react-hooks";
-import { ArticleModel } from "../../models/article-model";
+
 import { ArticlesResponseType } from "./article-response-type";
 
 import {
